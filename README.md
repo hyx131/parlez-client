@@ -1,68 +1,100 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Lighthouse Labs Final Project.
 
-## Available Scripts
+## Parlez - Let's Talk!
 
-In the project directory, you can run:
+Parlez is a realtime messaging application utilizing socket.io to allow multiple single chats and group chats.
 
-### `npm start`
+### Light House Lab Final Project
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### [Client Side github repo](https://github.com/mikeyqq/Parlez)
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+### [Server Side github repo](https://github.com/mikeyqq/parlez-api)
 
-### `npm test`
+## Table of contents
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [General Info](#general-info)
+- [Technologies](#technologies)
+- [Final Product](#final-product)
+- [Setup](#setup)
 
-### `npm run build`
+## General Info
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Our team wanted a challenge with our final project. We wanted to learn and implement a new tech called socket.io, but also exercise our knowledge with React, Express, and PostgreSQL.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+## Technologies
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Project is created with:
 
-### `npm run eject`
+#### Front End
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<li> React.js 16.9.0 </li>
+<li> Material-UI 4 </li>
+<li> Socket.IO 2.2.0 </li>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### Back End
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<li> Express 4.17.1 </li>
+<li> PostgreSQL 11.4 </li>
+<li> Socket.IO 2.2.0 </li>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+#### Testing
 
-## Learn More
+<li> Storybook 5.1.11 </li>
+<li> Postico 1.5.8 </li>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Final Product
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+`signup page`
 
-### Code Splitting
+!["signup page"](./docs/signup_page.png)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+`login page`
 
-### Analyzing the Bundle Size
+!["login page"](./docs/login_page.png)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+`add chat`
 
-### Making a Progressive Web App
+!["add chat"](./docs/add_chat.png)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+`add friends`
 
-### Advanced Configuration
+!["add chat"](./docs/add_friend.png)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+`automated bot messages`
 
-### Deployment
+- used joined chatroom
+- user left chatroom
+- user created chatroom
+- reopen chatroom
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+!["automated bot message"](./docs/automated_bot_message.png)
 
-### `npm run build` fails to minify
+`chat example`
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+!["chat example"](./docs/chat_example.png)
+
+`messages`
+
+!["messages"](./docs/messages.png)
+
+`add friend / create new chat options`
+
+!["add button - show add friend and chat"](./docs/plus_button.png)
+
+`storybook - component testing`
+
+!["storybook"](./docs/storybook.png)
+
+`Entity Relationship Diagram`
+
+!["ERD"](./docs/erd.png)
+
+## Setup
+
+To run this project, clone it to your directory.
+
+```
+$ cd ../Parlez
+$ npm install
+$ npm start
+```

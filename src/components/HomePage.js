@@ -145,7 +145,7 @@ const HomePage = () => {
       <div className="chatContainer">
         <div className="chatBox">
           {masterState.activeChat ? (
-            <div className="chatAvatar">
+            <div className="chatAvatarBox">
               <ChatAvatar />
               <ChatName />
             </div>

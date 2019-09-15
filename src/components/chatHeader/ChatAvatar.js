@@ -3,6 +3,7 @@ import Drawer from "@material-ui/core/Drawer";
 import ChatProfile from "./ChatProfile";
 import { ChatViewContext } from "../../Context";
 import { socket } from "../../server_api";
+import "./ChatAvatar.scss";
 
 export default function TemporaryDrawer() {
   const { masterState, dispatch } = useContext(ChatViewContext);
